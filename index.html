@@ -9,12 +9,19 @@
 </head>
 <body>
     <header>
-        <p>Header section</p>
+        <nav>
+            <a href="https://github.com">GitHub</a>
+            <a href="#">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
     </header>
     <main>
         <h1>Heading 1</h1>
-        <img src="IMG_1277-2.jpg" alt="My profile picture. Sailing">
-        <form action="" method="get" class="contact-form">
+        <img id="profile-pic" src="IMG_1277-2.jpg" alt="My profile picture. Sailing">
+        <p>Sailing and smiling...</p>
+        
+        <section id="contact">
+            <form action="" method="get" class="contact-form">
 
               <label for="name">Name: </label>
               <input type="text" name="name" id="name" required>
@@ -24,7 +31,8 @@
 
               <input type="submit" value="Subscribe!">
 
-          </form>
+            </form>
+        </section>
     </main>
     <footer>
         <h2>Footer section</h2>

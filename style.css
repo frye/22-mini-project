@@ -1,0 +1,12 @@
+#profile-pic {
+    max-height: 150px;
+    max-width: 150px;
+}
+
+nav {
+    text-align: right;
+}
+
+main {
+    text-align: center;
+}
